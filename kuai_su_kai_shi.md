@@ -1,5 +1,6 @@
 # 快速开始
 
 ## 环境安装
-1. 安装[Node.js](https://nodejs.org/) 和 npm，要求Node.js版本为5.0.0+， npm版本为3.0.0+。
+1. 安装[Node.js](https://nodejs.org/) 和 npm，要求Node.js版本为5.0.0+， npm版本为3.0.0+。安装完成后，可以通过Terminal查看其版本是否符合要求。
+  ![Node环境](6885F224-FC6C-4EEA-A7F8-A10D9BA3FA5B.png)
 2. 在Node.js环境安装完毕后，
