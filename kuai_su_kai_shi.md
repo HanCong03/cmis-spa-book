@@ -16,7 +16,7 @@
 
 1. 选定一个目录作为项目的根目录，进入该目录。
 2. 执行```npm init```，根据交互界面的提示输入一些基本信息。（也可以直接按entry键按默认情况来处理）。
-3. 执行```npm i cmis-env-spa --save-dev --registry=https://registry.npm.taobao.org``` 安装 **cmis单页应用开发环境```。
+3. 执行```npm i cmis-env-spa --save-dev --registry=https://registry.npm.taobao.org``` 安装 **cmis单页应用开发环境**。
 > 该过程所需的时间视当时的网络环境而定，请耐心等待，如果长时间未完成，请强制终止安装过程，重试一次。
 4. 执行```cmis -v```查看当前安装的环境版本，如果该命令成功执行，则表明安装过程顺利完成。
 
