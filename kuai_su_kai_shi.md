@@ -4,7 +4,7 @@
 
 要使用CMIS提供的开发环境，我们首先需要安装好一些基础依赖。这些依赖虽然和具体的项目无关，但却是运行所有CMIS开发环境所必须的。请按步骤执行。
 
-1. 安装[Node.js](https://nodejs.org/) 和 npm，要求Node.js版本为5.0.0+， npm版本为3.0.0+。安装完成后，可以通过Terminal查看其版本是否符合要求。
+1. 安装[Node.js](https://nodejs.org/) 和 npm，要求Node.js版本为5.0.0+， npm版本为3.0.0+。安装完成后，我们的系统会增加两个新的可用的命令：```node```和```npm```，可以通过Terminal查看其版本是否符合要求。
   ![Node.js环境](6885F224-FC6C-4EEA-A7F8-A10D9BA3FA5B.png)
 
 2. 安装命令行工具。在任意目录下执行```npm i cmis-cli -g``` 安装 **命令行工具**。
