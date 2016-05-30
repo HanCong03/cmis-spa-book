@@ -1,5 +1,5 @@
 # Summary
 
 * [简介](README.md)
-* [First Chapter](chapter1.md)
+* [环境安装](chapter1.md)
 
