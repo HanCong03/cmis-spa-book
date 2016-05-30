@@ -22,7 +22,7 @@
 
 ## 项目根路径的重要性
 
-CMIS相关的所有命令，都是以项目的跟路径来作为 ```Current Work Directory``` 的。
+CMIS相关的所有命令，都是以项目的根路径来作为 ```Current Work Directory``` 的。
 
 ## 初始化项目
 
