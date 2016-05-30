@@ -42,4 +42,6 @@ CMIS相关的所有命令，都是以项目的根路径来作为 ```Current Work
 
 同项目的初始化工作一样，你可以手工创建每一个页面，也可以使用CMIS提供的 ```cmis createpage [path]``` 命令来自动创建。该命令需要你指定一个 **相对于项目根路径的相对路径** 作为参数，该路径的 **最后一部分会作为页面目录的名称**，其他部分则是该页面目录所在的路径。
 
+> 由于CMIS要求所有的页面目录默认情况下都必须在 ```src/pages``` 路径下，所以在执行```cmis createpage [path]```命令时，我们需要创建的页面目录路径通常情况下看起来都是这样的： ```cmis createpage src/pages/xxx```。
+
 例如：为了创建首页，我们需要执行：```cmis createpage src/pages/index```。
