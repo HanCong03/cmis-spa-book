@@ -48,3 +48,5 @@ CMIS相关的所有命令，都是以项目的根路径来作为 ```Current Work
 > 注意：```cmis createpage``` 命令创建的是```页面目录```，所以路径不需要带 ```.html``` 后缀。
 
 例如：为了创建项目的首页，需要执行：```cmis createpage src/pages/index```。而如果需要创建某个二级类别页面的首页时，需要执行（以创建订单二级类页面为例）：```cmis createpage src/pages/orders/index```。
+
+> 提示：示例中的代码仅供参考，请根据实际情况修改执行的命令。
