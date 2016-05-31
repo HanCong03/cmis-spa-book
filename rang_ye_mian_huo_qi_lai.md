@@ -27,3 +27,17 @@
 ![](8FF2042E-F66A-4F75-BAC1-9BC6B0837DC8.png)
 
 打开```_assets/reducers.js```文件，输入以下内容：
+
+```javascript
+'use strict';
+
+export const app = (state = {
+    welcomeText: 'Good morning, 李雷'
+}, action) => {
+
+    switch (action.type) {
+        default:
+            return state;
+    }
+};
+```
