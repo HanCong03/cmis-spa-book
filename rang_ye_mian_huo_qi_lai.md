@@ -41,5 +41,5 @@ export const ui = (state = {
 };
 ```
 
-在该文件中，
+在该文件中，我们要根据页面的需要，导出两个```function```，
 
