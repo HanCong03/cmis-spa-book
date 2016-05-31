@@ -72,4 +72,4 @@ export const ui = (state = {
 >
 > 实际上，```页面主文件``` 的内容是[jsx](https://facebook.github.io/react/docs/jsx-in-depth.html)语法的**超集**。
 
-执行命令```cmis build```，并访问
+执行构建命令 ```cmis build```，并启动服务器 ```cmis start```，
