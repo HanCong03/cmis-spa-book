@@ -73,3 +73,5 @@ export const ui = (state = {
 > 实际上，```页面主文件``` 的内容是[jsx](https://facebook.github.io/react/docs/jsx-in-depth.html)语法的**超集**。
 
 执行构建命令 ```cmis build```，并启动服务器 ```cmis start```，在浏览器中访问 ```http://localhost:3000/```，可以看到如下的内容：
+
+![](1A3D6D22-1A74-48DD-AAFF-99905B04BE94.png)
