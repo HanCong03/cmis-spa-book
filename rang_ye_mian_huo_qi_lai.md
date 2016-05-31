@@ -26,5 +26,4 @@
 
 ![](8FF2042E-F66A-4F75-BAC1-9BC6B0837DC8.png)
 
-打开```_assets/reducers.js```文件:
-  
+打开```_assets/reducers.js```文件，
