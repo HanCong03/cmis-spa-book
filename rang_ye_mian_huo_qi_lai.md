@@ -36,11 +36,8 @@ export const ui = (state = {
     // UI状态的初始化值
     welcomeText: 'Good morning, 李雷'
 }, action) => {
-    // UI状态变化的处理
-    switch (action.type) {
-        default:
-            return state;
-    }
+    // 不做任何处理，直接返回状态
+    return state;
 };
 ```
 
