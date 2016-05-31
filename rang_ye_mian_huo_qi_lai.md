@@ -31,6 +31,7 @@
 ```javascript
 'use strict';
 
+// 导出ui状态的定义和处理函数
 export const ui = (state = {
     welcomeText: 'Good morning, 李雷'
 }, action) => {
@@ -41,5 +42,5 @@ export const ui = (state = {
 };
 ```
 
-在该文件中，我们要根据页面的需要，导出两个```function```，
+在该文件中，我们定义的需要，导出两个```function```，
 
