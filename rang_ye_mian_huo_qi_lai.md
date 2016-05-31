@@ -31,7 +31,7 @@
 ```javascript
 'use strict';
 
-// 导出ui状态的定义和处理函数
+// 导出ui状态的定义
 export const ui = (state = {
     // UI状态的初始化值
     welcomeText: 'Good morning, 李雷'
