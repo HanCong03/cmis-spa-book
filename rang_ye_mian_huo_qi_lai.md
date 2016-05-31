@@ -34,7 +34,7 @@
 // 导出ui状态的定义函数
 export const ui = (state = {
     // UI状态的初始化值
-    welcomeText: 'Good morning, 李雷'
+    welcomeText: 'Good morning，李雷'
 }, action) => {
     // 不做任何处理，直接返回状态
     return state;
