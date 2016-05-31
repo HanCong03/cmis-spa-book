@@ -71,3 +71,5 @@ export const ui = (state = {
 > ```页面主文件``` 中的内容在形式上看起来就像一个 ```HTML``` 文件。我们可以使用大括号 ```{}``` 来插入一些动态的内容，这些动态内容必须是合法的 ```javascript``` 代码。
 >
 > 实际上，```页面主文件``` 的内容是[jsx](https://facebook.github.io/react/docs/jsx-in-depth.html)语法的**超集**。
+
+执行命令```cmis build```，并访问
