@@ -59,9 +59,7 @@ export const ui = (state = {
 
 > 在后续的文档中，将会用 ```$appState``` 来代替 ```APP状态```，用 ```$uiState``` 来代替```UI状态``` 进行描述。
 
-
 打开```页面主文件```，输入以下内容：
-
 
 ```html
 <h1>$uiState.welcomeText</h1>
