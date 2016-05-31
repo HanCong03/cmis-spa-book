@@ -62,5 +62,6 @@ export const ui = (state = {
 打开```页面主文件```，输入以下内容：
 
 ```html
-<h1>$uiState.welcomeText</h1>
+<h1>{$uiState.welcomeText}</h1>
 ```
+
