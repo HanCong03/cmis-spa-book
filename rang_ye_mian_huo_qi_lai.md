@@ -31,7 +31,7 @@
 ```javascript
 'use strict';
 
-export const app = (state = {
+export const ui = (state = {
     welcomeText: 'Good morning, 李雷'
 }, action) => {
     switch (action.type) {
