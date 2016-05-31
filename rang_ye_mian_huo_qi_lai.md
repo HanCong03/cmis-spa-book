@@ -65,3 +65,4 @@ export const ui = (state = {
 <h1>{$uiState.welcomeText}</h1>
 ```
 
+你好
