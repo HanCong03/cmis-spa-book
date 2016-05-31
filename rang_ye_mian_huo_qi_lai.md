@@ -87,3 +87,4 @@ export const ui = (state = {
 <button>改变欢迎辞</button>
 ```
 
+如果你此时执行构建并在浏览器中查看效果，
