@@ -29,7 +29,6 @@
 打开```_assets/reducers.js```文件，输入以下内容：
 
 ```javascript
-
 'use strict';
 
 export const app = (state = {
