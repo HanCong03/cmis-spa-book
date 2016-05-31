@@ -31,7 +31,7 @@
 ```javascript
 'use strict';
 
-// 导出ui状态的定义
+// 导出ui状态的定义函数
 export const ui = (state = {
     // UI状态的初始化值
     welcomeText: 'Good morning, 李雷'
@@ -48,4 +48,4 @@ export const ui = (state = {
 
 > 对于第一个参数 ```state``` 具体代表的是```APP状态```还是```UI状态```，是根据导出的 ```function``` 属于 ```app``` 还是 ```ui``` 来决定的。
 
-在导出的 ```function``` 的函数体中，我们必须返回一个 ```状态```。在示例中，我们返回
+在导出的 ```function``` 的函数体中，我们必须返回一个 ```状态```。在示例中，我们不改变
