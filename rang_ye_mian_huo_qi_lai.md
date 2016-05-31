@@ -76,4 +76,4 @@ export const ui = (state = {
 
 ![](1A3D6D22-1A74-48DD-AAFF-99905B04BE94.png)
 
-## 改变现实内容
+## 改变欢迎辞
