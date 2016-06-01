@@ -84,4 +84,4 @@ export const ui = (state = {
 };
 ```
 
-## 如果
+## 触发状态的改变
