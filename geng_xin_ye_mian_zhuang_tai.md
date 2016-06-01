@@ -76,7 +76,7 @@ export const ui = (state = {
     welcomeText: 'Good morning，李雷'
 }, action) => {
   
-    // 在这里可以做任何操作
+    // 在这里可以针对state做任何操作
     ...
 
     return state;
