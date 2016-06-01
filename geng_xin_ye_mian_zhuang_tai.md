@@ -79,6 +79,7 @@ export const ui = (state = {
     // 在这里可以针对state做任何操作
     ...
 
+    // 保证函数执行完毕后一定会返回一个有效的state
     return state;
 };
 ```
