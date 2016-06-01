@@ -12,3 +12,4 @@
 <!-- 点击事件绑定示例 -->
 <button onclick={() => {EventHandler}>点击</button>
 ```
+
