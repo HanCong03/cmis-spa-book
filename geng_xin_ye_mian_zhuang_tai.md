@@ -11,3 +11,5 @@
 
 <h1>{$uiState.welcomeText}</h1>
 ```
+
+我们在页面中显示了
