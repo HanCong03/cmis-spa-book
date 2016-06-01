@@ -10,9 +10,9 @@
 
 ```javascript
 {
-  // 访问应用Action
+  // 当前页面App Action的挂载点
   appAction: Object,
-                uiAction: actions.ui,
+  uiAction: actions.ui,
                 appState: state.app,
                 uiState: state.ui,
                 service: MX_COMPONENT_ASSETS.service,
