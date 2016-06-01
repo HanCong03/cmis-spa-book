@@ -13,7 +13,7 @@
   // 访问当前页面的“App Action”入口
   appAction: Object,
   // 访问当前页面的“UI Action”入口
-  uiAction: actions.ui,
+  uiAction: Object,
                 appState: state.app,
                 uiState: state.ui,
                 service: MX_COMPONENT_ASSETS.service,
