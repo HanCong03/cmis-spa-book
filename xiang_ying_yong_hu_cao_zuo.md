@@ -39,4 +39,4 @@ export function sayHello($page, evt) {
 <button onclick={ $controller.sayHello }>点击</button>
 ```
 
-现在，
+现在，点击
