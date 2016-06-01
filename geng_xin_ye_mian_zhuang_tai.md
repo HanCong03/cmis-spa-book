@@ -64,3 +64,20 @@ export const ui = (state = {
 ```
 
 在这个文件中，我们已经定义并初始化了页面的UI状态，要为当前的状态添加“更新操作”，只需要在该 ```funciton``` 的函数体添加对应的行为即可。而不管添加多少行为，我们必须保证**函数执行完毕后必须返回一个 ```Object``` 作为新的 ```State```**。
+
+修改后的代码如下
+
+```javascript
+'use strict';
+
+// 导出ui状态的定义函数
+export const ui = (state = {
+    // UI状态的初始化值
+    welcomeText: 'Good morning，李雷'
+}, action) => {
+  
+    // 在这里可以做任何操作
+
+    return state;
+};
+```
