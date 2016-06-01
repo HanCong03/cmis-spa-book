@@ -10,6 +10,8 @@
 
 ```html
 <!-- 点击事件绑定示例 -->
+<%@route path="/"%>
+
 <button onclick={ _EventHandler_ }>点击</button>
 ```
 
@@ -37,6 +39,7 @@ export function sayHello($page, evt) {
 
 ```html
 <%@route path="/"%>
+
 <button onclick={ $controller.sayHello }>点击</button>
 ```
 
