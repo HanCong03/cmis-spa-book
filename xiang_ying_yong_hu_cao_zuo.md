@@ -30,6 +30,6 @@ CMIS允许用户在 ```页面目录``` 下定义一个 ```_assets/controller.js`
 ```javascript
 // 导出button的click事件处理器
 export function sayHello($page, evt) {
-  alert(evt);
+  alert('Hello' + evt.type);
 }
 ```
