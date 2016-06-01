@@ -35,6 +35,8 @@ export function sayHello($context, evt) {
   alert('Hello' + evt.type);
 }
 ```
+
+
 然后修改 ```页面主文件``` 中代码为:
 
 ```html
