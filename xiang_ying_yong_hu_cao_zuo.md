@@ -42,7 +42,6 @@ export function sayHello($context, evt) {
 }
 ```
 
-
 然后修改 ```页面主文件``` 中代码为:
 
 ```html
