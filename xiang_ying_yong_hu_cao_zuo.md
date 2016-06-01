@@ -23,4 +23,4 @@
 
 那我们的事件处理器来自于何处呢？
 
-CMIS允许用户在 ```页面目录``` 下定义一个 ```_assets/controller.js``` 文件，用户可以通过该文件**导出**一系列的 ```function```， 
+CMIS允许用户在 ```页面目录``` 下定义一个 ```_assets/controller.js``` 文件，用户可以通过该文件**导出**一系列的 ```control function```， 
