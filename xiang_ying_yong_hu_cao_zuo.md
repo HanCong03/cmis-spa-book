@@ -25,3 +25,5 @@
 
 CMIS允许用户在 ```页面目录``` 下定义一个 ```_assets/controller.js``` 文件，用户可以利用该文件**导出**一系列的 ```control function```，在 ```页面主文件``` 中，我们可以通过“全局变量” ```$controller``` 访问这些**导出的** ```control function```。
 
+新建文件 ```_assets/controler.js```:
+
