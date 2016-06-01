@@ -86,3 +86,4 @@ export const ui = (state = {
 
 ## 触发状态的改变
 
+仅仅是定义好各种
