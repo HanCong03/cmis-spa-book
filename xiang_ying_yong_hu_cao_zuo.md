@@ -10,7 +10,7 @@
 
 ```html
 <!-- 点击事件绑定示例 -->
-<button onclick={_EventHandler_}>点击</button>
+<button onclick={ _EventHandler_ }>点击</button>
 ```
 
 在这个示例中，我们通过为
