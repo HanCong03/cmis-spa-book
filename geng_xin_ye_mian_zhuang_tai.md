@@ -15,10 +15,11 @@
   // 访问当前页面“UI Action”的入口
   uiAction: Object,
   // 访问当前页面“App State”的入口
-  appState: state.app,
+  appState: Object,
   // 访问当前页面“UI State”的入口
-  uiState: state.ui,
-                service: MX_COMPONENT_ASSETS.service,
+  uiState: Object,
+  // 访问当前页面“服务层”的入口
+  service: Object,
                 getResource,
                 getAppResource
 }
