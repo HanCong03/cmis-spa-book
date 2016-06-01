@@ -20,8 +20,10 @@
   uiState: Object,
   // 访问当前页面“服务层”的入口
   service: Object,
-                getResource,
-                getAppResource
+  // 获取当前页面资源URL的帮助函数
+  getResource: Function,
+  // 获取应用全局资源URL的帮助函数
+  getAppResource: Function
 }
 ```
 
