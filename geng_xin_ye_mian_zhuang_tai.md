@@ -86,4 +86,3 @@ export const ui = (state = {
 
 ## 状态改变的条件
 
-在上一段文档中，
