@@ -38,3 +38,5 @@ export function sayHello($page, evt) {
 ```html
 <button onclick={ $controller.sayHello }>点击</button>
 ```
+
+现在，
