@@ -10,12 +10,14 @@
 
 ```javascript
 {
-  // 访问当前页面的“App Action”入口
+  // 访问当前页面“App Action”的入口
   appAction: Object,
-  // 访问当前页面的“UI Action”入口
+  // 访问当前页面“UI Action”的入口
   uiAction: Object,
-                appState: state.app,
-                uiState: state.ui,
+  // 访问当前页面“App State”的入口
+  appState: state.app,
+  // 访问当前页面“UI State”的入口
+  uiState: state.ui,
                 service: MX_COMPONENT_ASSETS.service,
                 getResource,
                 getAppResource
