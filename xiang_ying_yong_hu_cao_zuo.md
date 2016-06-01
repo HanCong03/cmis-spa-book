@@ -36,6 +36,7 @@ export function sayHello($page, evt) {
 然后修改 ```页面主文件``` 中代码为:
 
 ```html
+<%@route path="/"%>
 <button onclick={ $controller.sayHello }>点击</button>
 ```
 
