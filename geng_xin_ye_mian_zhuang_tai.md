@@ -86,4 +86,4 @@ export const ui = (state = {
 
 ## 状态改变的条件
 
-在CMIS环境中，我们的代码无法直接获取到 ```_assets/reducers.js``` 中定义的函数，这也就导致
+在CMIS环境中，我们的代码无法直接获取到 ```_assets/reducers.js``` 中定义的函数，这也就导致我们**不能直接触发状态的变化**，
