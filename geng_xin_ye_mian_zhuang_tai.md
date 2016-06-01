@@ -8,7 +8,18 @@
 
 通常情况下，```页面上下文对象``` 包含以下几个属性：
 
-
+```javascript
+{
+  // 访问应用Action
+  appAction: Object,
+                uiAction: actions.ui,
+                appState: state.app,
+                uiState: state.ui,
+                service: MX_COMPONENT_ASSETS.service,
+                getResource,
+                getAppResource
+}
+```
 
 ## 修改状态
 
