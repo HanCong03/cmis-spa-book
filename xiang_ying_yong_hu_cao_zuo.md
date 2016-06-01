@@ -52,7 +52,7 @@ export function sayHello($context, evt) {
 
 执行构建：```cmis build```，然后在浏览器中访问：```http://localhost:3000/```，将看到如下效果：
 
-
+![](6936005D-ECFB-4A44-8156-37E982C0B28E.png)
 
 点击页面中的按钮，将会弹出一个对话框：
 
