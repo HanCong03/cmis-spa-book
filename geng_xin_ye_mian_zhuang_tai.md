@@ -10,7 +10,7 @@
 
 ```javascript
 {
-  // 当前页面App Action的挂载点
+  // 当前页面的应用Action的挂载点
   appAction: Object,
   uiAction: actions.ui,
                 appState: state.app,
