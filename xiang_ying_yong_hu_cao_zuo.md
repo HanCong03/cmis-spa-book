@@ -39,4 +39,5 @@ export function sayHello($page, evt) {
 <button onclick={ $controller.sayHello }>点击</button>
 ```
 
-现在，点击
+执行构建：```cmis build```，然后在浏览器中访问：```http://localhost:3000/```，将看到如下效果：
+
