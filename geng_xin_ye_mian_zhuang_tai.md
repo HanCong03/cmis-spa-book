@@ -12,4 +12,4 @@
 <h1>{$uiState.welcomeText}</h1>
 ```
 
-我们在页面中显示了 ```$uiState``` 中的 ```welcomeText```，
+我们在页面插入了 ```$uiState``` 中的 ```welcomeText```，
