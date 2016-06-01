@@ -10,5 +10,5 @@
 
 ```html
 <!-- 点击事件绑定示例 -->
-<button onclick={() => {handler}>点击</button>
+<button onclick={() => {EventHandler}>点击</button>
 ```
