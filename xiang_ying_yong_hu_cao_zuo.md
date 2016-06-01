@@ -13,4 +13,4 @@
 <button onclick={ _EventHandler_ }>点击</button>
 ```
 
-在这个示例中，我们通过为 ```button``` 元素添加
+在上面的示例代码中，
