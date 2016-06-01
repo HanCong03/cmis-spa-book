@@ -13,4 +13,4 @@
 <button onclick={ _EventHandler_ }>点击</button>
 ```
 
-在上面的示例代码中，```onclick attribute``` 的值是一个被一对大括号 ```{}``` 括起来的内容，
+在上面的示例代码中，```onclick attribute``` 的值是一个被一对大括号 ```{}``` 括起来的内容，在
