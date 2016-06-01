@@ -50,3 +50,16 @@
 
 让我们回顾一下我们在 [显示动态内容](#显示动态内容) 中定义的 ```_assets/reducers.js``` 文件的内容：
 
+```javascript
+'use strict';
+
+// 导出ui状态的定义函数
+export const ui = (state = {
+    // UI状态的初始化值
+    welcomeText: 'Good morning，李雷'
+}, action) => {
+    // 不做任何处理，直接返回状态
+    return state;
+};
+```
+
