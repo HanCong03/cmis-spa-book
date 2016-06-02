@@ -136,7 +136,7 @@ export const ui = (state = {
         ...
     }
 
-    // 返回最终的State
+    // 最终需要返回的State
     return state;
 };
 ```
