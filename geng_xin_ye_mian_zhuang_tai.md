@@ -175,6 +175,7 @@ export const app = {
     };
   },
   
+  //另一个action creator
   app2Action: function () {
     return {};
   }
