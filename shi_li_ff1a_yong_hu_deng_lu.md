@@ -159,7 +159,8 @@ export function loginSuccess(uid, name) {
   };
 }
 
-export const app = {
-  login()
-};
+// 登录失败
+export function loginFail(reason) {
+  
+}
 ```
