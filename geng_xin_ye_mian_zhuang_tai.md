@@ -169,7 +169,7 @@ export const app = {
     // 返回一个aciton对象
     return {
       // action 类型
-      type: 'type1',
+      type: String,
       // action 携带的数据
       payload: any
     };
