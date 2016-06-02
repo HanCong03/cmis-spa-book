@@ -168,9 +168,10 @@ export const app = {
   app1Action: function () {
     // 返回一个aciton对象
     return {
+      // action 类型
       type: 'type1',
-      //
-      payload: {}
+      // action 携带的数据
+      payload: any
     };
   },
   
