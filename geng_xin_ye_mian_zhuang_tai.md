@@ -95,7 +95,10 @@ export const ui = (state = {
 ```动作``` 在技术上是一个 ```普通对象```，如下所示：
 
 ```javascript
-// 一个可能的 Action
+// 动作对象
 {
+  type: String,
+  payload: any,
+  error: 
 }
 ```
