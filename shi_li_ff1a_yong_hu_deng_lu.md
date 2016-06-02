@@ -153,7 +153,7 @@ export function login() {
 // 登录成功
 export function loginSuccess(uid, name) {
   return {
-    type: 'LOGIN_COMPLETE'
+    type: 'LOGIN_COMPLETE',
     payload: {
       uid,
       name
