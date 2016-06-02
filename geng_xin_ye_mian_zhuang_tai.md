@@ -127,10 +127,11 @@ export const ui = (state = {
         break;
         
       case '动作2':
-        // 对应于“动作1”时state应该是什么样的
+        // 对应于“动作2”时state应该是什么样的
         state = ....;
         break;
         
+      // 更多“动作”的处理
       case ...
         ...
     }
