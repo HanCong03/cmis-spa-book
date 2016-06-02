@@ -162,10 +162,11 @@ export const ui = (state = {
 export function actionTrigger1(uid, password) {
   // 返回一个aciton对象
     return {
-      // action 类型
+      // action标识，类型是String
       type: String,
       // action 携带的数据
-      payload: any
+      payload: {
+      }
     };
 }
 
