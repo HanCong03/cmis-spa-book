@@ -177,7 +177,7 @@ export function loginFail(reason) {
 'use strict'
 
 // 定义登录控制器
-export function login($context, ) {
+export function login($context, evt) {
   
 }
 ```
