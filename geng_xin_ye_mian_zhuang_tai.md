@@ -163,6 +163,12 @@ export const ui = (state = {
 'use strict'
 
 export const app = {
-  function xxxAction() {}
+  function app1Action() {},
+  function app2Action() {}
+};
+
+export const ui = {
+  function ui1Action() {},
+  function ui2Action() {}
 };
 ```
