@@ -173,3 +173,10 @@ export function loginFail(reason) {
 
 打开文件```src/pages/_assets/controller.js```，修改内容为：
 
+```javascript
+'use strict'
+
+// 定义用户控制器
+export function login() {
+}
+```
