@@ -194,3 +194,8 @@ export function login($context, evt){
   }, 1000);
 }
 ```
+
+## 执行构建，预览效果
+
+在项目根路径下执行：```cmis build```。
+打开浏览器，访问：```http://localhost:3000/``` 即可查看效果。
