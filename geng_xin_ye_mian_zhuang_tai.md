@@ -158,9 +158,20 @@ export const ui = (state = {
 ```javascript
 'use strict'
 
-export 
+// 动作触发器1
+export function actionTrigger1() {
+  // 返回一个aciton对象
+    return {
+      // action 类型
+      type: String,
+      // action 携带的数据
+      payload: any
+    };
+}
 
-// 应用相关Action Creator
+// 动作触发器2
+
+
 export const app = {
   // action creator
   app1Action: function () {
