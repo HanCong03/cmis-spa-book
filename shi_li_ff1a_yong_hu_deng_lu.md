@@ -61,8 +61,11 @@
 
 ## 定义状态
 
+打开文件```src/pages/_assets/reducer.js```，修改内容为：
+
 ```javascript
-/**
- *
+'use strict'
+
+
 
 ```
