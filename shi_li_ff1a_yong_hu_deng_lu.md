@@ -144,7 +144,7 @@ export const ui = (state, aciton) => {
 'use strict'
 
 // 登录动作
-export funciton login() {
+export function login() {
   return {
     type: 'LOGIN'
   };
