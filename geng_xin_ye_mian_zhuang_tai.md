@@ -116,7 +116,7 @@ export const ui = (state = {
 // 导出ui状态的定义函数
 /** 
 * @param state 当前页面的状态对象，如果还未初始化，则该参数为 undefined。
-* @param action 参数代表了当前的“动作”
+* @param action 触发当前状态变化的“动作”
 */
 export const ui = (state = {
     // UI状态的初始化值
