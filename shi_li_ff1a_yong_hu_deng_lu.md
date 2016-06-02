@@ -104,7 +104,7 @@ export const ui = (state, aciton) => {
       };
       break;
       
-    // 登录完成
+    // 登录完成，不论失败与否，都重置提交状态
     case 'LOGIN_COMPLETE':
       state = {
         isSubmitting: false
