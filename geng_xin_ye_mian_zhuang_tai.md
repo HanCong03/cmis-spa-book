@@ -164,12 +164,19 @@ export const ui = (state = {
 
 // 应用Action Creator
 export const app = {
-  function app1Action() {
+  // action creator
+  app1Action: function () {
+    // 返回一个aciton对象
     return {
-      
+      type: 'type1',
+      //
+      payload: {}
     };
   },
-  function app2Action() {}
+  
+  app2Action: function () {
+    return {};
+  }
 };
 
 export const ui = {
