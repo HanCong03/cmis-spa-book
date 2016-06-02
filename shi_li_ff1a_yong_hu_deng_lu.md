@@ -161,6 +161,10 @@ export function loginSuccess(uid, name) {
 
 // 登录失败
 export function loginFail(reason) {
-  
+  return {
+    type: 'LOGIN_COMPLETE',
+    payload: new Error(reason),
+    error: true
+  };
 }
 ```
