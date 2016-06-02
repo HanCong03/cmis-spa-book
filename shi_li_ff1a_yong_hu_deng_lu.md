@@ -84,6 +84,7 @@ export const app = (state, action) => {
     case 'LOGIN_COMPLETE':
       // 登录过程发生错误
       if (aciotn.error) {
+        // 从payload中提取出错误信息，注意此处生成了新的state，而不是在原有的state上进行修改。
         state = {
           ...state,
           loginErrorMessage: action.payload.message
