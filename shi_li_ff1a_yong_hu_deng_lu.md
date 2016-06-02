@@ -98,6 +98,9 @@ export const app = (state, action) => {
         };
       }
   }
+  
+  // 记得返回state
+  return state;
 };
 
 // UI状态定义
