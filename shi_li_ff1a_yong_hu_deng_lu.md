@@ -94,6 +94,18 @@ export const ui = (state, aciton) => {
       isSubmitting: false
     };
   }
+  
+  switch (action.type) {
+    // 开始登录过程
+    case 'LOGIN':
+      state = {
+        isSubmitting: true
+      };
+      break;
+  }
+  
+  // 记住返回state
+  return state;
 };
 
 ```
