@@ -32,15 +32,15 @@
       -->
       <form onsubmit={$controller.login} action="/login">
         <div>
-          <input disabled={$uiState.inLogin} type="text" name="username">
+          <input disabled={$uiState.isSubmitting} type="text" name="username">
         </div>
         
         <div>
-          <input disabled={$uiState.inLogin} type="password" name="password">
+          <input disabled={$uiState.isSubmitting} type="password" name="password">
         </div>
         
         <div>
-          <button disabled={$uiState.inLogin} type="submit">登录</button>
+          <button disabled={$uiState.isSubmitting} type="submit">登录</button>
         </div>
       </form>
     </Default>
