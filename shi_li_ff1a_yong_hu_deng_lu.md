@@ -143,7 +143,9 @@ export const ui = (state, aciton) => {
 
 // 登录动作
 export funciton login() {
-  
+  return {
+    type: 'LOGIN'
+  };
 }
 
 export const app = {
