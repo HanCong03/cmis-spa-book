@@ -25,6 +25,9 @@
     <Default>
       <div>{$appState.loginErrorMessage}</div>
       
+      <!--
+        定义登录表单，并且
+      -->
       <form onsubmit={$controller.login} action="/login">
         <div>
           <input type="text" name="username">
