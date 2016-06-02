@@ -170,7 +170,9 @@ export function actionTrigger1() {
 }
 
 // 动作触发器2
-
+export function actionTrigger2() {
+  ...
+}
 
 export const app = {
   // action creator
