@@ -135,3 +135,13 @@ export const ui = (state, aciton) => {
 ```
 
 ## 定义行为（Action）
+
+打开文件```src/pages/_assets/action.js```，修改内容为：
+
+```javascript
+'use strict'
+
+export const app = {
+  login()
+};
+```
