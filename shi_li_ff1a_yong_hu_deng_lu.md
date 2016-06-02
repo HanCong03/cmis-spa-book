@@ -95,13 +95,16 @@ export const ui = (state, aciton) => {
     };
   }
   
+  // 处理Action
   switch (action.type) {
-    // 开始登录过程
+    // 开始登录
     case 'LOGIN':
       state = {
         isSubmitting: true
       };
       break;
+      
+    case 
   }
   
   // 记得返回state
