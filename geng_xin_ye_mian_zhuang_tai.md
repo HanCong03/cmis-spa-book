@@ -114,6 +114,7 @@ export const ui = (state = {
 'use strict';
 
 // 导出ui状态的定义函数
+// action 参数代表了当前的“动作”
 export const ui = (state = {
     // UI状态的初始化值
     welcomeText: 'Good morning，李雷'
@@ -140,3 +141,5 @@ export const ui = (state = {
     return state;
 };
 ```
+
+在 ```_assets/reducers.js``` 中添加了对 ```动作```
