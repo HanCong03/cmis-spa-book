@@ -187,3 +187,16 @@ export const ui = {
   ui2Action: function () {}
 };
 ```
+
+在定义好了 ```Action Creator``` 后，在 ```_assets/controller.js``` 中的 ```控制器函数``` 中我们可以通过 ```页面上下文对象``` 调用它们，并触发对应的 ```动作```。在 ```控制器函数``` 中触发 ```动作``` 的代码类似如下：
+
+```javascript
+/**
+* @file  _assets/controller.js
+*/
+
+export {
+  
+};
+
+```
