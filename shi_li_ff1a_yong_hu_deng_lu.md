@@ -25,7 +25,7 @@
     <Default>
       <div>{$appState.loginErrorMessage}</div>
       
-      <form action="/login">
+      <form onsubmit={$controller.login} action="/login">
         <div>
           <input type="text" name="username">
         </div>
