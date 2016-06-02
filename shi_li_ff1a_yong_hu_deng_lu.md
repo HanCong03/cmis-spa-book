@@ -23,6 +23,8 @@
     </Case>
     
     <Default>
+    
+      <!-- 登录错误提示 -->
       <div>{$appState.loginErrorMessage}</div>
       
       <!--
