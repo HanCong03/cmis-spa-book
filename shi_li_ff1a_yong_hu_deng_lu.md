@@ -141,6 +141,11 @@ export const ui = (state, aciton) => {
 ```javascript
 'use strict'
 
+// 登录动作
+export funciton login() {
+  
+}
+
 export const app = {
   login()
 };
