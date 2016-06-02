@@ -183,6 +183,13 @@ export function login($context, evt){
   // 在后续的高级内容中会有更好的方式来获取表单数据）
   let {username, password} = evt.target.elements;
   
+  // 模拟网络通信延迟
+  setTimeout(() => {
+    if (username === 'test' && password === 'test') {
+      $context.action.loginSuccess(123, '测试用户');
+    }
   
+    $context.action.login
+  }, 1000);
 }
 ```
