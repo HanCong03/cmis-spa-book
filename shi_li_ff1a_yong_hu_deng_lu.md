@@ -104,7 +104,7 @@ export const ui = (state, aciton) => {
       break;
   }
   
-  // 记住返回state
+  // 记得返回state
   return state;
 };
 
