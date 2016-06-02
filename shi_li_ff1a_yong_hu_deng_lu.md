@@ -7,6 +7,7 @@
 
 要编写一个Welcome页面，如果当前用户已经登录，则显示：Welcome + 用户的登录名。如果用户未登录，则显示登录对话框。为了保持简单，用户的登录过程不会发送网络请求，而是在本地直接判断。
 
+
 ## 编写页面
 
 ```html
@@ -17,7 +18,7 @@
 <div>
   <!-- switch 标签是CMIS提供的内置页面元素，用来根据某种条件进行选择性地渲染页面视图 -->
   <Switch test={!!$appState.user}>
-    <Case>
+    <Case value={true}>
       
     </Case>
   </Switch>
