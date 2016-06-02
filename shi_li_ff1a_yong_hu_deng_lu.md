@@ -29,7 +29,11 @@
         </div>
         
         <div>
-          <input type="text" name="username">
+          <input type="password" name="password">
+        </div>
+        
+        <div>
+          <button type="submit">登录</button>
         </div>
       </form>
     </Default>
