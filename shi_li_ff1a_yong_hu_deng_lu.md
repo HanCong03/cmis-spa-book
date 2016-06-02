@@ -66,6 +66,15 @@
 ```javascript
 'use strict'
 
-你好
+// 应用状态定义
+export const app = (state, action) => {
+  // 如果不存在状态，则对其进行初始化
+  if (!state) {
+    state = {
+      
+    }
+  }
+
+};
 
 ```
