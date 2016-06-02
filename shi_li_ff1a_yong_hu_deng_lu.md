@@ -104,7 +104,11 @@ export const ui = (state, aciton) => {
       };
       break;
       
-    case 
+    // 登录完成
+    case 'LOGIN_COMPLETE':
+      state = {
+        isSubmitting: false
+      };
   }
   
   // 记得返回state
