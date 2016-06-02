@@ -163,7 +163,7 @@ export function actionTrigger1(uid, password) {
   // 返回一个aciton对象
     return {
       // action标识，类型是String
-      type: String,
+      type: 'login',
       // action 携带的数据
       payload: {
       }
