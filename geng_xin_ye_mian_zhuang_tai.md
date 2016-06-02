@@ -131,7 +131,7 @@ export const ui = (state = {
         state = ....;
         break;
         
-      // 更多“动作”的处理
+      // 更多类型的“动作”的处理
       case ...
         ...
     }
