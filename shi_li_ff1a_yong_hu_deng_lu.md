@@ -26,7 +26,7 @@
       <div>{$appState.loginErrorMessage}</div>
       
       <!--
-        定义登录表单，并且
+        定义登录表单，并且监听表单的提交事件
       -->
       <form onsubmit={$controller.login} action="/login">
         <div>
