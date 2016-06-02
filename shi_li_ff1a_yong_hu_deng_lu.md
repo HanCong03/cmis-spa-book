@@ -22,6 +22,7 @@
       <h1>Welcome {$appState.user.name}</h1>
     </Case>
     <Default>
+      
     </Default>
   </Switch>
 </div>
