@@ -195,8 +195,6 @@ export const ui = {
 * @file  _assets/controller.js
 */
 
-export {
-  login
-};
+export function login() {}
 
 ```
