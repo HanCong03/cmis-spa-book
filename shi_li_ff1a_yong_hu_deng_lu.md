@@ -186,7 +186,10 @@ export function login($context, evt){
   // 模拟网络通信延迟
   setTimeout(() => {
     if (username === 'test' && password === 'test') {
+      // 触发登录成功
       $context.action.loginSuccess(123, '测试用户');
+    } else {
+      $context.action.loginFail('用户名和密码错误');
     }
   
     $context.action.login
