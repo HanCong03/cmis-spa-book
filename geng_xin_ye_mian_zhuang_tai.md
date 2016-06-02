@@ -110,3 +110,30 @@ export const ui = (state = {
 
 在加入了对 ```动作``` 的处理之后，```_assets/reducers.js``` 文件的内容看起来就像是这样的：
 
+```javascript
+'use strict';
+
+// 导出ui状态的定义函数
+export const ui = (state = {
+    // UI状态的初始化值
+    welcomeText: 'Good morning，李雷'
+}, action) => {
+  
+    // 处理不同类型的“动作”
+    switch (action.type) {
+      case '动作1':
+        state = ...;
+        break;
+        
+      case '动作2':
+        state = ....;
+        break;
+        
+      case ...
+        ...
+    }
+
+    // 返回最终的State
+    return state;
+};
+```
