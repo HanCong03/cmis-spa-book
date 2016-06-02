@@ -24,7 +24,13 @@
     
     <Default>
       <form action="/login">
-        <input type="text" name="">
+        <div>
+          <input type="text" name="username">
+        </div>
+        
+        <div>
+          <input type="text" name="username">
+        </div>
       </form>
     </Default>
   </Switch>
