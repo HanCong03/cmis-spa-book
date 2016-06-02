@@ -213,3 +213,5 @@ export function login($context, evt){
 
 ![](5ADC7D47-5ECC-45BF-8B64-F3D6A380971A.png)
 
+登录成功时的界面：
+
