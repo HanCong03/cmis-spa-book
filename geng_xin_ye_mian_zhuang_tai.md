@@ -97,8 +97,11 @@ export const ui = (state = {
 ```javascript
 // 动作对象
 {
+  // 必须的
   type: String,
+  // 可选的
   payload: any,
+  // 可选的
   error: Boolean
 }
 ```
