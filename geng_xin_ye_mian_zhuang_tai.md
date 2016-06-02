@@ -183,7 +183,7 @@ export const app = {
 
 // UI相关Action Creator
 export const ui = {
-  function ui1Action() {},
-  function ui2Action() {}
+  ui1Action: function() {},
+  ui2Action: function () {}
 };
 ```
