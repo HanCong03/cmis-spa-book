@@ -24,6 +24,7 @@
     
     <Default>
       <div>{$appState.loginErrorMessage}</div>
+      
       <form action="/login">
         <div>
           <input type="text" name="username">
