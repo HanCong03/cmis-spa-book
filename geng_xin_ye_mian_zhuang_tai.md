@@ -192,7 +192,7 @@ export function login($context, username, password) {
   // 触发登录成功的动作，并传递相关数据
   $context.action.loginSuccess(123, '测试用户');
   
-  // 触发UI相关Action
+  // 触发其他动作
   $context.action.actionTrigger2();
 }
 ```
