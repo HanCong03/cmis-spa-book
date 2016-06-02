@@ -36,11 +36,11 @@
         </div>
         
         <div>
-          <input type="password" name="password">
+          <input disabled={$uiState.inLogin} type="password" name="password">
         </div>
         
         <div>
-          <button type="submit">登录</button>
+          <button disabled={$uiState.inLogin} type="submit">登录</button>
         </div>
       </form>
     </Default>
