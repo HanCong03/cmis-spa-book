@@ -138,10 +138,6 @@ export const ui = (state = {
       // 更多类型的“动作”的处理
       case ...
         ...
-        
-      // 默认情况下，也就是
-      default:
-        state = ...;
     }
 
     // 最终需要返回的State
