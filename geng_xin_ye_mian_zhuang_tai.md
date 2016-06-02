@@ -106,4 +106,4 @@ export const ui = (state = {
 }
 ```
 
-一个 ```动作``` 产生后，
+一个 ```动作``` 产生后，会被交给 ```_assets/reducers.js``` 处理，
