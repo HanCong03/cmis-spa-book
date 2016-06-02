@@ -158,8 +158,8 @@ export const ui = (state = {
 ```javascript
 'use strict'
 
-// 动作触发器1
-export function actionTrigger1() {
+// 动作触发器1 - 存储用户信息
+export function actionTrigger1(username, password) {
   // 返回一个aciton对象
     return {
       // action 类型
@@ -187,6 +187,6 @@ export function login($context, username, password) {
   $context.action.actionTrigger1(username, password);
   
   // 触发UI相关Action
-  $context.action.actionTrigger1();
+  $context.action.actionTrigger2();
 }
 ```
