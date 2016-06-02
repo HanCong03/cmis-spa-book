@@ -148,6 +148,13 @@ export funciton login() {
   };
 }
 
+export function loginSuccess() {
+  return {
+    type: 'LOGIN_COMPLETE'
+    payload: 
+  };
+}
+
 export const app = {
   login()
 };
