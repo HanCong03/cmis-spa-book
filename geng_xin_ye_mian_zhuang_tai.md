@@ -155,4 +155,4 @@ export const ui = (state = {
 
 我们可以在文件 ```_assets/action.js``` 中定义 ```动作创建器（Action Creator）```。和 ```_assets/reducer.js``` 中定义 ```页面状态``` 时区分 ```应用状态（$appState）``` 和 ```UI状态（$uiState）``` 一样，我们的 ```动作``` 也分为 ```应用相关的动作（$appAction）``` 和 ```UI相关的动作（$uiAction）```。
 
-**```应用相关的动作只能改变```**
+**```应用相关的动作```只能改变 ```应用状态```，**
