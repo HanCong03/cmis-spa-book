@@ -19,8 +19,10 @@
   <!-- switch 标签是CMIS提供的内置页面元素，用来根据某种条件进行选择性地渲染页面视图 -->
   <Switch test={!!$appState.user}>
     <Case value={true}>
-      
+      <h1>Welcome {$appState.user.name}</h1>
     </Case>
+    <Default>
+    </Default>
   </Switch>
 </div>
 ```
