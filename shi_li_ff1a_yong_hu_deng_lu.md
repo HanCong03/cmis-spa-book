@@ -27,7 +27,6 @@
         定义登录表单，并且监听表单的提交事件
       -->
       <form onsubmit={$controller.login} action="/login">
-        
         <!-- 登录错误提示 -->
         <div>{$appState.loginErrorMessage}</div>
         
