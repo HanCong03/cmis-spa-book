@@ -184,9 +184,9 @@ export function actionTrigger2() {
 
 export function login($context, username, password) {
   // 触发应用相关Action
-  $context.appAction.xxx(username, password);
+  $context.action.actionTrigger1(username, password);
   
   // 触发UI相关Action
-  $context.uiAction.xxx();
+  $context.action.actionTrigger1();
 }
 ```
