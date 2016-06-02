@@ -164,7 +164,11 @@ export const ui = (state = {
 
 // 应用Action Creator
 export const app = {
-  function app1Action() {},
+  function app1Action() {
+    return {
+      
+    };
+  },
   function app2Action() {}
 };
 
