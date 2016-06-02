@@ -148,10 +148,14 @@ export funciton login() {
   };
 }
 
-export function loginSuccess() {
+// 登录成功
+export function loginSuccess(uid, name) {
   return {
     type: 'LOGIN_COMPLETE'
-    payload: 
+    payload: {
+      uid,
+      name
+    }
   };
 }
 
