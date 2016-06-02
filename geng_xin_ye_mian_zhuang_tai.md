@@ -10,10 +10,8 @@
 
 ```javascript
 {
-  // 访问当前页面“App Action”的入口
-  appAction: Object,
-  // 访问当前页面“UI Action”的入口
-  uiAction: Object,
+  // 访问当前所定义的“Action Trigger”的入口
+  action: Object,
   // 访问当前页面“App State”的入口
   appState: Object,
   // 访问当前页面“UI State”的入口
