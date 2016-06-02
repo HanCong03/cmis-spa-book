@@ -171,3 +171,4 @@ export function loginFail(reason) {
 
 ## 编写控制器，关联用户行为
 
+打开文件```src/pages/_assets/controller.js```，修改内容为：
