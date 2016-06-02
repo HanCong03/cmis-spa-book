@@ -23,7 +23,9 @@
     </Case>
     
     <Default>
+      <form action="/login">
       
+      </form>
     </Default>
   </Switch>
 </div>
