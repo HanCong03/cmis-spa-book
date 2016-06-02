@@ -163,6 +163,6 @@ export const ui = (state = {
 'use strict'
 
 export const app = {
-  
+  function xxxAction() {}
 };
 ```
