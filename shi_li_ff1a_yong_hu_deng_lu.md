@@ -169,3 +169,5 @@ export function loginFail(reason) {
 }
 ```
 
+## 编写控制器，关联用户行为
+
