@@ -48,4 +48,4 @@
 </div>
 ```
 
-> Switch标签是CMIS环境提供的 **内置元素**。其行为是：查找其下的 ```Case``` 元素，如果 ```Case``` 元素的 ```value``` attribute 值与 ```Switch``` 的 ```test``` attribute 值一致，则渲染该 ```Case``` 元素中的内容；如果所有 ```Case``` 都不匹配，则渲染 ```Default``` 元素的内容；如果不存在 ```Default``` 元素， 则什么都不渲染。
+> Switch标签是CMIS环境提供的 **内置元素**。其行为是：查找其下的 ```Case``` 元素，如果 ```Case``` 元素的 ```value``` attribute 值与 ```Switch``` 的 ```test``` attribute 值一致，则渲染该 ```Case``` 元素中的内容；如果所有 ```Case``` 都不匹配，则渲染 ```Default``` 元素的内容；如果不存在任何匹配的 ```Case```元素，且不存在 ```Default``` 元素， 则什么都不渲染。
