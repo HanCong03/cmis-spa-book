@@ -83,7 +83,7 @@ export const app = (state, action) => {
     // 只关心登录完成的动作，其他动作不用关心
     case 'LOGIN_COMPLETE':
       // 登录过程发生错误
-      if (aciotn.error) {
+      if (action.error) {
         // 从payload中提取出错误信息，注意此处由于修改了状态值，
         // 所以我们基于原有的State，生成了全新的State对象，
         // 而不是在原有的State对象上进行修改。
@@ -181,7 +181,7 @@ export function loginFail(reason) {
 // 定义登录控制器
 export function login($context, evt){
   // 阻止表单提交
-    evt.preventDefault();
+  evt.preventDefault();
     
   // 获取表单数据
   //（为了简单，这里是通过这种方式获取表单数据的，不建议使用这种方式，
