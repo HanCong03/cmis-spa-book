@@ -114,7 +114,10 @@ export const ui = (state = {
 'use strict';
 
 // 导出ui状态的定义函数
-// action 参数代表了当前的“动作”
+/** 
+* @param state 当前应用的状态，如果还未初始化，则该参数为 undefined。
+* @param action 参数代表了当前的“动作”
+*/
 export const ui = (state = {
     // UI状态的初始化值
     welcomeText: 'Good morning，李雷'
