@@ -72,7 +72,9 @@ export const app = (state, action) => {
   if (!state) {
     state = {
       // 初始化用户为空
-      user: null
+      user: null,
+      // 初始化登录错误为空
+      loginErrorMessage: null
     };
   }
 
