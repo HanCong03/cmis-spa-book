@@ -71,7 +71,7 @@ export const app = (state, action) => {
   // 如果不存在状态，则对其进行初始化
   if (!state) {
     state = {
-      // 初始化用户为空
+      // 初始化用户为空，标识未登录
       user: null,
       // 初始化登录错误为空
       loginErrorMessage: null
