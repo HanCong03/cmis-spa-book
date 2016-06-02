@@ -13,7 +13,6 @@
 1. 进入项目根路径。
 2. 执行初始化：```cmis init```。
 3. 创建页面：```cmis createpage src/pages/index```。
-4. 
 
 ## 编写页面主文件（视图）
 
