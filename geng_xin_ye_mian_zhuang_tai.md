@@ -184,7 +184,7 @@ export function actionTrigger2() {
 
 export function login($context, username, password) {
   // 触发应用相关Action
-  $context.action.actionTrigger1(username, password);
+  $context.action.actionTrigger1(123, '测试用户');
   
   // 触发UI相关Action
   $context.action.actionTrigger2();
