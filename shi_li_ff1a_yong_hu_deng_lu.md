@@ -78,7 +78,9 @@ export const app = (state, action) => {
 
   // 列出所有变更的可能
   switch (action.type) {
-    
+    // 处理用户登录的行为
+    case 'login':
+      
   }
 };
 
