@@ -176,8 +176,8 @@ export function loginFail(reason) {
 ```javascript
 'use strict'
 
-// 定义用户控制器
-export function login() {
+// 定义登录控制器
+export function login($context, ) {
   
 }
 ```
