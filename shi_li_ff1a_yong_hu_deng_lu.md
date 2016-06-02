@@ -80,9 +80,15 @@ export const app = (state, action) => {
 
   // 列出所有变更的可能
   switch (action.type) {
-    // 处理用户登录的行为
-    case 'LOGIN':
-      
+    // 只关心登录完成的动作，其他动作不用关心
+    case 'LOGIN_COMPLETE':
+      // 登录过程发生错误
+      if (aciotn.error) {
+        state = {
+          ...state,
+          loginErrorMessage: action.payload.message
+        };
+      }
   }
 };
 
