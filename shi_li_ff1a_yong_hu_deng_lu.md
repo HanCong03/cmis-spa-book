@@ -90,7 +90,8 @@ export const app = (state, action) => {
 export const ui = (state, aciton) => {
   if (!state) {
     state = {
-      
+      // 是否处于提交阶段
+      isSubmitting: false
     };
   }
 };
