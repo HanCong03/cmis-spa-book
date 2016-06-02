@@ -99,6 +99,6 @@ export const ui = (state = {
 {
   type: String,
   payload: any,
-  error: 
+  error: Boolean
 }
 ```
