@@ -15,6 +15,9 @@
 
 <!-- 以下是页面要显示的内容 -->
 <div>
-  
+  <!-- switch 标签是CMIS提供的内置页面元素， -->
+  <Switch test={!!$appState.user}>
+    <Case>
+  </Switch>
 </div>
 ```
