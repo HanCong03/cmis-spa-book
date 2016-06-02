@@ -219,3 +219,4 @@ export function login($context, evt){
 
 登录成功后的界面：
 
+![](416C07B0-2428-44D7-A54F-7D724AABC1D6.png)
