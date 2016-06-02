@@ -94,7 +94,7 @@ export const app = (state, action) => {
       } else {
         state = {
           ...state,
-          
+          user: action.payload
         };
       }
   }
