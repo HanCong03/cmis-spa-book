@@ -32,7 +32,7 @@
       -->
       <form onsubmit={$controller.login} action="/login">
         <div>
-          <input type="text" name="username">
+          <input disabled={$uiState.inLogin} type="text" name="username">
         </div>
         
         <div>
