@@ -203,5 +203,3 @@ export function login($context, username, password) {
   $context.uiAction.xxx();
 }
 ```
-
-## 完整示例
