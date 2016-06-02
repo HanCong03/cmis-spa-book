@@ -59,7 +59,7 @@
 
 为了让用户能在登录失败时了解错误的原因，我们在表单顶部提供一个提示框。同时，为了防止用户在登录过程中修改输入的用户名和密码以及防止重复提交，我们为表单元素定义了 ```disabled``` attribute，并把表单是否禁用交由 ```$uiState``` 中的 ```isSubmitting``` 项来控制。
 
-## 定义状态
+## 定义状态(State)
 
 打开文件```src/pages/_assets/reducer.js```，修改内容为：
 
@@ -133,3 +133,5 @@ export const ui = (state, aciton) => {
 };
 
 ```
+
+## 定义Action
