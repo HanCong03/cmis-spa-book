@@ -71,10 +71,15 @@ export const app = (state, action) => {
   // 如果不存在状态，则对其进行初始化
   if (!state) {
     state = {
-      
-    }
+      // 初始化用户为空
+      user: null
+    };
   }
 
+  // 列出所有变更的可能
+  switch (action.type) {
+    
+  }
 };
 
 ```
