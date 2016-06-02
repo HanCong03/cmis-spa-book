@@ -195,6 +195,12 @@ export const ui = {
 * @file  _assets/controller.js
 */
 
-export function login() {}
+export function login($context, username, password) {
+  // 触发应用相关Action
+  $context.appAction.xxx(username, password);
+  
+  // 触发UI相关Action
+  $context.uiAction.xxx();
+}
 
 ```
