@@ -157,4 +157,11 @@ export const ui = (state = {
 
 > 注意：**```应用相关的动作``` 只能改变 ```应用状态```，```UI相关的动作``` 只能改变 ```UI状态``` **。
 
-定义
+在 ```_assets/action.js``` 文件中，我们的 ```动作创建器``` 的定义方式如下：
+
+```javascript
+'use strict'
+
+export const app = {
+};
+```
