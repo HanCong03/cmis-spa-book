@@ -85,6 +85,8 @@ export const app = (state, action) => {
 };
 
 // UI状态定义
-export const ui = (state, aciton) => {};
+export const ui = (state, aciton) => {
+  
+};
 
 ```
