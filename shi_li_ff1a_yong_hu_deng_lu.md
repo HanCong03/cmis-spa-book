@@ -16,6 +16,8 @@
 
 ## 编写页面主文件（视图）
 
+打开文件 ```src/pages/index/index.html```，修改内容为：
+
 ```html
 <!-- 别忘了定义路由 -->
 <%@route path="/"%>
