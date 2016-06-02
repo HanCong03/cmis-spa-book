@@ -173,30 +173,6 @@ export function actionTrigger1() {
 export function actionTrigger2() {
   ...
 }
-
-export const app = {
-  // action creator
-  app1Action: function () {
-    // 返回一个aciton对象
-    return {
-      // action 类型
-      type: String,
-      // action 携带的数据
-      payload: any
-    };
-  },
-  
-  //另一个action creator
-  app2Action: function () {
-    return {};
-  }
-};
-
-// UI相关Action Creator
-export const ui = {
-  ui1Action: function() {},
-  ui2Action: function () {}
-};
 ```
 
 在定义好了 ```Action Creator``` 后，在 ```_assets/controller.js``` 中的 ```控制器函数``` 中我们可以通过 ```页面上下文对象``` 调用它们，并触发对应的 ```动作```。在 ```控制器函数``` 中触发 ```动作``` 的代码类似如下：
