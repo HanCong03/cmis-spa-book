@@ -122,10 +122,12 @@ export const ui = (state = {
     // 处理不同类型的“动作”
     switch (action.type) {
       case '动作1':
+        // 对应于“动作1”时state应该是什么样的
         state = ...;
         break;
         
       case '动作2':
+        // 对应于“动作1”时state应该是什么样的
         state = ....;
         break;
         
