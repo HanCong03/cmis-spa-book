@@ -31,11 +31,11 @@
         <div>{$appState.loginErrorMessage}</div>
         
         <div>
-          <input disabled={$uiState.isSubmitting} type="text" name="username">
+          <input disabled={$uiState.isSubmitting} type="text" name="username"/>
         </div>
         
         <div>
-          <input disabled={$uiState.isSubmitting} type="password" name="password">
+          <input disabled={$uiState.isSubmitting} type="password" name="password"/>
         </div>
         
         <div>
