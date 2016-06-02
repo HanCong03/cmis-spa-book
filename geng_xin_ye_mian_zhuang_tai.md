@@ -162,7 +162,7 @@ export const ui = (state = {
 ```javascript
 'use strict'
 
-// 应用Action Creator
+// 应用相关Action Creator
 export const app = {
   // action creator
   app1Action: function () {
@@ -181,6 +181,7 @@ export const app = {
   }
 };
 
+// UI相关Action Creator
 export const ui = {
   function ui1Action() {},
   function ui2Action() {}
