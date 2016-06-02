@@ -105,3 +105,5 @@ export const ui = (state = {
   error: Boolean
 }
 ```
+
+一个 ```动作``` 产生后，
