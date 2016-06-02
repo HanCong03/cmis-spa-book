@@ -191,8 +191,6 @@ export function login($context, evt){
     } else {
       $context.action.loginFail('用户名和密码错误');
     }
-  
-    $context.action.login
   }, 1000);
 }
 ```
