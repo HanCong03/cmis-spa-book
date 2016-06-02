@@ -84,4 +84,6 @@ export const app = (state, action) => {
   }
 };
 
+export const app = (state, aciton) => {};
+
 ```
