@@ -158,8 +158,8 @@ export const ui = (state = {
 ```javascript
 'use strict'
 
-// 动作触发器1 - 存储用户信息
-export function actionTrigger1(uid, password) {
+// 动作触发器 - 登录成功Action，携带了当前用户的uid和password
+export function loginSuccess(uid, password) {
   // 返回一个aciton对象
     return {
       // action标识，类型是String
