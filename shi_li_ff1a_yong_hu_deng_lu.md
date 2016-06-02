@@ -177,7 +177,10 @@ export function loginFail(reason) {
 'use strict'
 
 // 定义登录控制器
-export function login($context, evt) {
+export function login($context, evt){
+  // 获取表单数据
+  //（为了简单，这里是通过这种方式获取表单数据的，不建议使用这种方式，在后续的高级内容中会提到更好的方式来获取表单数据）
+  let {username, password} = evt.target.elements;
   
 }
 ```
