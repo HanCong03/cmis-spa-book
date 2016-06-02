@@ -106,7 +106,7 @@ export const app = (state, action) => {
 };
 
 // UI状态定义
-export const ui = (state, aciton) => {
+export const ui = (state, action) => {
   if (!state) {
     state = {
       // 是否处于提交阶段
@@ -202,3 +202,7 @@ export function login($context, evt){
 在项目根路径下执行：```cmis build```。
 
 打开浏览器，访问：```http://localhost:3000/``` 即可查看效果。
+
+未登录时的界面：
+![](5ADC7D47-5ECC-45BF-8B64-F3D6A380971A.png)
+
