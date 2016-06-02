@@ -28,8 +28,8 @@
       -->
       <form onsubmit={$controller.login} action="/login">
         
-              <!-- 登录错误提示 -->
-      <div>{$appState.loginErrorMessage}</div>
+        <!-- 登录错误提示 -->
+        <div>{$appState.loginErrorMessage}</div>
         
         <div>
           <input disabled={$uiState.isSubmitting} type="text" name="username">
