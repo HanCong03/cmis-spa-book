@@ -159,7 +159,7 @@ export const ui = (state = {
 'use strict'
 
 // 动作触发器1 - 存储用户信息
-export function actionTrigger1(username, password) {
+export function actionTrigger1(uid, password) {
   // 返回一个aciton对象
     return {
       // action 类型
