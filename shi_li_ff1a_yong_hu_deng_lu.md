@@ -89,6 +89,13 @@ export const app = (state, action) => {
           ...state,
           loginErrorMessage: action.payload.message
         };
+        
+      // 登录成功，记住用户信息
+      } else {
+        state = {
+          ...state,
+          
+        };
       }
   }
 };
