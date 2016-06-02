@@ -180,6 +180,9 @@ export function loginFail(reason) {
 
 // 定义登录控制器
 export function login($context, evt){
+  // 阻止表单提交
+    evt.preventDefault();
+    
   // 获取表单数据
   //（为了简单，这里是通过这种方式获取表单数据的，不建议使用这种方式，
   // 在后续的高级内容中会有更好的方式来获取表单数据）
@@ -204,5 +207,6 @@ export function login($context, evt){
 打开浏览器，访问：```http://localhost:3000/``` 即可查看效果。
 
 未登录时的界面：
+
 ![](5ADC7D47-5ECC-45BF-8B64-F3D6A380971A.png)
 
