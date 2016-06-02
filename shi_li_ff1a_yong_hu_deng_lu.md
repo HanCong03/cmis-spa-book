@@ -66,6 +66,6 @@
 ```javascript
 'use strict'
 
-
+你好
 
 ```
