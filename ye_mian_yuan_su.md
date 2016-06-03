@@ -67,5 +67,7 @@
 在HTML中，我们可以这么编写我们的form表单：
 
 ```html
-
+<form>
+  <input type="text" name="username">
+</form>
 ```
