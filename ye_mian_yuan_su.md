@@ -70,6 +70,6 @@
 <form>
   <input type="text" name="username">
   <input type="password" name="password">
-  <button type="submit">提交</button>
+  <button type="submit">登录</button>
 </form>
 ```
