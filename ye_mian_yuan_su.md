@@ -30,10 +30,12 @@
   <h1>中国建设很行</h1>
 
   <div class="content">
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
-  </ul>
+    <ul>
+      <li>...</li>
+      <li>...</li>
+      <li>...</li>
+    </ul>
+  </div>
 </div>
 ```
 
