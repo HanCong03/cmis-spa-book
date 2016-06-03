@@ -64,12 +64,15 @@
 
 如下是一个对比：
 
-在HTML中，我们可以这么编写我们的form表单：
+在HTML中，我们可以这么编写form表单：
 
 ```html
 <form>
+  <!-- input 未闭合 -->
   <input type="text" name="username">
   <input type="password" name="password">
   <button type="submit">登录</button>
 </form>
 ```
+
+但是在
