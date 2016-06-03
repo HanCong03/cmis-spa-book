@@ -14,7 +14,7 @@
 2. 执行初始化：```cmis init```。
 3. 创建页面：```cmis createpage src/pages/index```。
 
-## 编写页面主文件（视图）
+## 编写页面模板（视图）
 
 打开文件 ```src/pages/index/index.html```，修改内容为：
 
