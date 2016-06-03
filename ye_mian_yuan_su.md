@@ -69,5 +69,7 @@
 ```html
 <form>
   <input type="text" name="username">
+  <input type="password" name="password">
+  <button type="submit">提交</button>
 </form>
 ```
