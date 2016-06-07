@@ -4,7 +4,7 @@
 
 
 
-<Container class="my-container">
+<Container style="backgorund: red; width: 100px;">
   <Container.Column>
     <xxx>
   <Container.Column>
@@ -13,3 +13,8 @@
   </Container.Column>
 </Container>
 
+
+
+.my-container xxx {
+  width: 100%;
+}
