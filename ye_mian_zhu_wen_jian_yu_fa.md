@@ -4,7 +4,7 @@
 
 
 
-<Container class="xxxx">
+<Container class="my-container">
   <Container.Column>
     <xxx>
   <Container.Column>
