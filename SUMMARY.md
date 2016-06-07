@@ -8,6 +8,6 @@
    * [更新状态](geng_xin_ye_mian_zhuang_tai.md)
    * [示例：用户登录](shi_li_ff1a_yong_hu_deng_lu.md)
 * [高级教程](gao_ji_jiao_cheng.md)
-   * [页面模板语法](ye_mian_zhu_wen_jian_yu_fa.md)
+   * [页面主文件](ye_mian_zhu_wen_jian_yu_fa.md)
        * [页面元素](ye_mian_yuan_su.md)
 
