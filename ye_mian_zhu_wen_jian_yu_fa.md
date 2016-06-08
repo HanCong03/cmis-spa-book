@@ -35,7 +35,8 @@
 ```html
 <%@某指令%>
 
-<!-- 页面元素 -->
+<!-- 页面元素 start -->
 <div>Hello China</div>
 <div>Hello World</div>
+<!-- 页面元素 end -->
 ```
