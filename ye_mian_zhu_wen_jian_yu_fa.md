@@ -35,6 +35,7 @@
 ```html
 <%@某指令%>
 
+<!-- 页面代码 -->
 <div>Hello China</div>
 <div>Hello World</div>
 ```
