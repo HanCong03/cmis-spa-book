@@ -33,7 +33,7 @@
 下面是一些非法的 ```页面主文件``` 的示例代码：
 
 ```html
-<%@指令%>
+<%@某指令%>
 
 <div>Hello China</div>
 <div>Hello World</div>
