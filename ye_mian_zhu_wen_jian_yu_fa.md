@@ -35,7 +35,6 @@
 ```html
 <%@xxx%>
 
-<div>
-  
-</div>
+<div>Hello China</div>
+<div>Hello World</div>
 ```
