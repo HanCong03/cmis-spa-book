@@ -37,9 +37,9 @@
 
 <!-- 页面元素 start -->
 <div>Hello China</div>
-<span>Hello World</div>
+<span>Hello World</span>
 <!-- 页面元素 end -->
 ```
 
-这个示例中，非法的原因是：连个
+这个示例中，非法的原因是：```<div/>``` 和 ```<span/>``` 间所形成的结构**不是一棵唯一的“树”**。
 
