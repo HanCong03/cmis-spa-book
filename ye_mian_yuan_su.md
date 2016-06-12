@@ -30,3 +30,9 @@
 <div style="background: red; width: 100px; height: 100px;"></div>
 ```
 
+和标准 ```HTML``` 不同的地方在于：要想添加自定义的 ```attribute```， 我们需要使用 ```data-``` 作为其名称的前缀。比如，要为一个 ```<div/>``` 添加一个名为 ```index``` 的自定义 ```attribute```，我们需要定义成这样：
+
+```html
+<div data-index="xxx"></div>
+```
+
