@@ -16,6 +16,7 @@
 
 ```html
 <div>
+  <!-- 使用$appState来访问在 state.js 文件中定义的 today 数据项 -->
   <h1>你好，今天是 {$appState.today}</h1>
   <form onsubmit={$controller.loginSubmit}>
     <input type="text" name="username"/>
