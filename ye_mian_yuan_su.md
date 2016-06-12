@@ -52,6 +52,7 @@
 
 ```html
 <!-- 为 <div/> 添加 click 事件的监听器 -->
+<div onclick={handlerFunction}></div>
 ```
 
 ## 动态计算
