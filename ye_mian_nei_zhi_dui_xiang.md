@@ -8,3 +8,5 @@
 4. $getResource(resourcePathName)： 获取当前页面包含的资源URL的帮助函数；
 5. $getAppResource(resourcePathName)：获取整个应用包含的全局资源URL的帮助函数。
 
+## 如何使用
+
