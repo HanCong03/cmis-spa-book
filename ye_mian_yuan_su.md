@@ -53,8 +53,8 @@
 ```html
 <!-- 为 <div/> 添加 click 事件的监听器 -->
 <!--
-handlerFunction 是 <div/> 元素的 click事件处理器，
-其类型是 JavaScript Function 对象，
+  handlerFunction 是 <div/> 元素的 click事件处理器，
+  其类型是 JavaScript Function 对象，
 -->
 <div onclick={handlerFunction}></div>
 ```
