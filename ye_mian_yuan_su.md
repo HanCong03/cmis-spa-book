@@ -61,7 +61,9 @@
 <!-- 
   styleDict是一个普通JavaScript对象，其值类似这样：
   styleDict = {
-    
+    background: 'red',
+    width: '100px',
+    height: '100px'
   };
 -->
 <div style={styleDict}></div>
