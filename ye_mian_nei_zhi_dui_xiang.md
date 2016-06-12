@@ -5,6 +5,6 @@
 1. $appState：当前页面的 ```应用状态```；
 2. $uiState：当前页面的 ```UI 状态```；
 3. $controller：当前页面定义的 ```控制器函数```；
-4. $getResource： 获取当前页面中的资源URL；
-5. $getAppResource：获取整个应用下的全局资源URL。
+4. $getResource(resourcePathName)： 获取当前页面包含的资源URL的函数；
+5. $getAppResource(resourcePathName)：获取整个应用包含的全局资源URL的函数。
 
