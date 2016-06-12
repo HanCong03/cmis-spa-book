@@ -57,5 +57,7 @@
 我们可以为 ```页面元素``` 动态计算 ```attribute``` 值：
 
 ```html```
+<!-- 为<div/>设置动态样式 -->
 <div style={styleDict}></div>
 ```
+
