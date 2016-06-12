@@ -81,7 +81,7 @@
 ```html
 <!-- 为<div/>设置动态文案 -->
 <!--
-  userName是一个String对象，也可以是可以转化为String的 JavaScript简单数据类型。
+  userName是一个 String 类型的对象，也可以是可以转化为 String 的 JavaScript 简单数据类型。
 -->
 <div>
 Hello {userName}
