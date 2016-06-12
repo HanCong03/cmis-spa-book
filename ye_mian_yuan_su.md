@@ -30,7 +30,7 @@
 <div style="background: red; width: 100px; height: 100px;"></div>
 ```
 
-和标准 ```HTML``` 不同的地方在于：要想为 ```内置HTML元素``` 添加自定义的 ```attribute```， 我们需要使用 ```data-``` 作为其名称的前缀。
+和标准 ```HTML``` 不同的地方在于：要想为 **```内置HTML元素```** 添加自定义的 ```attribute```， 我们需要使用 ```data-``` 作为其名称的前缀。
 
 比如，以下就是一种合法的自定义 ```attribute```：
 
