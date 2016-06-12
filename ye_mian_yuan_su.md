@@ -54,5 +54,8 @@
 
 ### 动态计算 attribute
 
-我们可以为 ```页面元素``` 动态计算 ```attribute``` 值，其使用方式看起来像这样：
+我们可以为 ```页面元素``` 动态计算 ```attribute``` 值：
 
+```html```
+<div style={styleObject}></div>
+```
