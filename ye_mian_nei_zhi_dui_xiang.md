@@ -7,3 +7,4 @@
 3. $controller：当前页面定义的 ```控制器函数```；
 4. $getResource： 获取当前页面中的资源URL；
 5. $getAppResource：获取整个应用下的全局资源URL。
+
