@@ -59,7 +59,10 @@
 ```html```
 <!-- 为<div/>设置动态样式 -->
 <!-- 
-  styleDict是一个普通JavaScript对象，其值大致上如下：
+  styleDict是一个普通JavaScript对象，其值类似这样：
+  styleDict = {
+    
+  };
 -->
 <div style={styleDict}></div>
 ```
