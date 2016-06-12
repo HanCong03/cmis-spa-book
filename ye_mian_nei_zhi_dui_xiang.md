@@ -20,7 +20,11 @@
 <div>
   <h1>你好，今天是 {$appState.today}</h1>
   <form onsubmit={$controller.loginSubmit}>
-    
+    <input type="text" name="username"/>
+    <br/>
+    <input type="password" name="password"/>
+    <br/>
+    <button type="submit">登录</button>
   </form>
 </div>
 ```
