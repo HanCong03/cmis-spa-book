@@ -14,8 +14,13 @@
 
 以下是一个使用 ```页面内置对象``` 的示例，模拟登录界面：
 
+页面主文件:
+
 ```html
 <div>
   <h1>你好，今天是 {$appState.today}</h1>
+  <form onsubmit={$controller.loginSubmit}>
+    
+  </form>
 </div>
 ```
