@@ -16,8 +16,10 @@
 
 ```html
 <div>
-  <!-- 使用$appState来访问在 state.js 文件中定义的 today 数据项 -->
+  <!-- 使用 $appState 来访问在 state.js 文件中定义的 today 数据项 -->
   <h1>你好，今天是 {$appState.today}</h1>
+
+  <!-- 使用 $controller 来访问 controler.js 文件中定义的控制器函数 -->
   <form onsubmit={$controller.loginSubmit}>
     <input type="text" name="username"/>
     <br/>
