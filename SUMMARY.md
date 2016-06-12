@@ -11,5 +11,5 @@
    * [页面主文件](ye_mian_zhu_wen_jian_yu_fa.md)
        * [页面元素](ye_mian_yuan_su.md)
        * [页面内置对象](ye_mian_nei_zhi_dui_xiang.md)
-   * 页面控制器
+   * [页面控制器](ye_mian_kong_zhi_qi.md)
 
