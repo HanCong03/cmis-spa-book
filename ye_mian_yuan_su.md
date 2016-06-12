@@ -52,6 +52,9 @@
 
 ```html
 <!-- 为 <div/> 添加 click 事件的监听器 -->
+<!--
+handlerFunction 是一个 JavaScript Function 对象，
+-->
 <div onclick={handlerFunction}></div>
 ```
 
