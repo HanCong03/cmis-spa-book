@@ -15,3 +15,17 @@
 在 ```页面主文件``` 中，我们可以使用合法的 ```HTML标签```，比如：```<div/>```、```<ul/>``` 等，他们的行为和 ```HTML``` 中是一致的，比如：点击 ```<a/>``` 元素会导致URL发生改变等。
 
 所有的 ```HTML``` 标签都必须是全小写格式。
+
+我们也可以为 ```HTML标签``` 添加 ```attribute```，且这些 ```attribute``` 的含义和在 ```HTML``` 中的含义是一致的。
+
+比如，可以为元素定义 ```class```：
+
+```html
+<div class="my-div"></div>
+```
+
+也可以为元素指定 ```inline style```：
+
+```html
+<div style="background: red; width: 100px; height: 100px;"></div>
+```
